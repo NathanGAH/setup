@@ -39,7 +39,7 @@ try:
    	 # Append mode ("a") creates the file automatically if it's missing
     with open(bashrc, "a") as f:
         f.write(f"\n{text_attach}")
-        f.write("\nalias qac='python3 ~/.qac.py'")
+        f.write("\n\nalias qac='python3 ~/.qac.py'")
 
 except Exception as e:
     print(f"An error occurred: {e}")
