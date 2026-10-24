@@ -22,4 +22,4 @@ sudo pacman -S --noconfirm \
 
 echo "[*] Installing Python & package tools..."
 sudo pacman -S --noconfirm python python-pip
-python3 -c "print('Python is installed.')"
+python3 -c "print('[*]Python is installed.')"
